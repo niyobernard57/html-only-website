@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client Form</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header>
+    <h1>NovaTech Solutions Ltd</h1>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="form.html">Form</a>
+        <a href="media.html">Media</a>
+    </nav>
+</header>
+<main class="form-page">
+<form>
+<fieldset>
+<legend>Client Information</legend>
+
+<label>Company Name:</label>
+<input type="text" list="companies"><br>
+
+<datalist id="companies">
+    <option value="NovaTech Partner">
+</datalist>
+
+<label>Email:</label>
+<input type="email"><br>
+
+<label>Service Type:</label>
+<select>
+<optgroup label="IT Services">
+    <option>Software Development</option>
+    <option>IT Support</option>
+</optgroup>
+</select><br>
+
+<label>Project Description:</label>
+<textarea></textarea><br>
+
+<label>Budget:</label>
+<input type="number"><br>
+
+<output>Form Output</output><br>
+
+<button type="submit">Send Request</button>
+</fieldset>
+</form>
+</main>
+
+<footer>
+    <p>&copy; 2026 NovaTech Solutions Ltd</p>
+</footer>
+
+</body>
+</html>
